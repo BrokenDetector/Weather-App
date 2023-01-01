@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html,
+body {
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #3983C4;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+header {
+    background-color: #25287E;
+    color: #5595CE;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    padding: 20px 0px;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header h1 img {
+    height: 70px;
+    width: auto;
+    margin-right: 5px;
+    padding-bottom: 5px;
+}
+
+/* MAIN */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    margin: 30px;
+    font-weight: bold;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-bottom: 1px black solid;
+}
+
+#city {
+    background-color: #3983C4;
+    border: none;
+    font-size: 1.1rem;
+}
+
+.find-btn {
+    background-color: #3983C4;
+    border: none;
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    background-color: #94BDE0;
+    border-radius: 35px;
+    margin: 50px;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+#name {
+    color: #191B57;
+}
+
+#temp-now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 19px 0px;
+}
+
+#temp-now img {
+    height: 60px;
+    width: auto;
+    margin-right: -35px;
+}
+
+/* FOOTER */
+footer {
+    margin-top: auto;
+    height: fit-content;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+footer img {
+    width: 25px;
+    height: auto;
+    margin-left: 5px;
+}
+
+footer a {
+    color: black;
+}
